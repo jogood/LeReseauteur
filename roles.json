@@ -1,0 +1,66 @@
+[
+    {
+        "nom": "01 Bas-Saint-Laurent",
+        "regex": [],
+    },
+    {
+        "nom": "02 Saguenay-Lac-Saint-Jean",
+        "regex": [],
+    },
+    {
+        "nom": "03 Capitale-Nationale",
+        "regex": [],
+    },
+    {
+        "nom": "04 Mauricie–Centre-du-Québec",
+        "regex": [],
+    },
+    {
+        "nom": "05 Estrie",
+        "regex": [],
+    },
+    {
+        "nom": "06 Montréal",
+        "regex": [],
+    },
+    {
+        "nom": "07 Outaouais",
+        "regex": [],
+    },
+    {
+        "nom": "08 Abitibi-Temiscamingue",
+        "regex": [],
+    },
+    {
+        "nom": "09 Côte-Nord",
+        "regex": [],
+    },
+    {
+        "nom": "10 Nord-Du-Québec",
+        "regex": [],
+    },
+    {
+        "nom": "11 Gaspésie Iles-De-La-Madelaine",
+        "regex": [],
+    },
+    {
+        "nom": "12 Chaudière-Appalaches",
+        "regex": [],
+    },
+    {
+        "nom": "13 Laval",
+        "regex": [],
+    },
+    {
+        "nom": "14 Lanaudière",
+        "regex": [],
+    },
+    {
+        "nom": "15 Laurentides",
+        "regex": [],
+    },
+    {
+        "nom": "16 Montérégie",
+        "regex": [],
+    },
+]
