@@ -1,7 +1,7 @@
 const discord = require("discord.js"); // JS library for Discord
 const client = new discord.Client();
 const config = require("./config.json");
-
+var botVersion = "1.0";
 const fs = require("fs");
 client.commands = new discord.Collection();
 const commandFiles = fs.readdirSync("./commands").filter((file) => file.endsWith(".js"));
@@ -13,11 +13,10 @@ for (const file of commandFiles) {
 
 // When the bot starts
 client.on("ready", () => {
-    console.log("Logged in\n");
-    // dlog();
+    console.log("Logged in\nVersion: " + botVersion);
 });
 
-var prefix = "!";
+var prefix = config.prefix;
 //When chat messages are received
 client.on("message", function (message) {
     if (message.channel.id != "850355899201880074") return;
